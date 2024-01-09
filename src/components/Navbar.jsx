@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import { close, logo, menu } from '../assets'
+import { close, menu } from '../assets'
+import logo from '../assets/logo.png'
 import { navLinks } from '../constants'
 
 const Navbar = () => {
