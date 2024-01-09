@@ -35,23 +35,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "AI",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Artificial Intelligence for providing diagnosis, consultancy and a roadmap from sowing to harvesting.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Satellite Imagery",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Satellite imagery to provide insights about abut the crop health, hydration, yield and field monitoring. All through our Satellite AI model.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "E-commerce and Social Media",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "A built in E-commerce store and social media for essential shopping and delivery as well as connecting with the world through social media.",
   },
 ];
 
