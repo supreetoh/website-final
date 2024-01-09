@@ -1,7 +1,4 @@
 import { 
-  people01, 
-  people02, 
-  people03, 
   facebook, 
   instagram, 
   linkedin, 
@@ -65,7 +62,7 @@ export const feedback = [
       "Built-in E-commerce helps farmers all around to get the essentials, from seeds to fertilizers and equipments on the tip of their hands.",
     name: "E-COMMERCE STORE",
     title: "Delivery systems",
-    img: people01,
+    // img: people01,
   },
   {
     id: "feedback-2",
@@ -73,7 +70,7 @@ export const feedback = [
       "Social media website for farmers to connect with the world and know about the happenings around.",
     name: "RootS-Web",
     title: "Social media platform",
-    img: people02,
+    // img: people02,
   },
   {
     id: "feedback-3",
@@ -81,7 +78,7 @@ export const feedback = [
       "Field analysis using satellite imagery and Artificial intelligense and gathering insights about field and crops.",
     name: "Main AI Model",
     title: "Realtime analysis",
-    img: people03,
+    // img: people03,
   },
 ];
 

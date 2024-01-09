@@ -1,5 +1,6 @@
 import styles from '../style'
-import { discount, robot } from '../assets'
+import { discount } from '../assets'
+import farm from '../../Needed/farm.png'
 import GetStarted from './GetStarted'
 
 const Hero = () => {
@@ -35,9 +36,10 @@ const Hero = () => {
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         <img
-          src={robot}
+          src={farm}
           alt='billing'
-          className='w-[100%] h-[100%] relative z-[5]'
+          className='w-[100%] h-[75%] relative z-[5]'
+          style={{borderRadius: 50}}
         />
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
