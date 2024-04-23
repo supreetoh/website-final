@@ -12,7 +12,9 @@ const CTA = () => {
         </p>
       </div>
       <div className={`${styles.flexCenter} sm:ml-10 ml-0`}>
-        <Button/>
+        <a href='https://play.google.com/store/apps/details?id=com.rootskartv2' target='_blank'>
+          <Button />
+        </a>
       </div>
     </section>
   )

@@ -2,6 +2,7 @@ import React from 'react'
 import { features } from '../constants'
 import styles, { layout } from '../style'
 import Button from './Button'
+import video from '../assets/roots-video.mp4'
 
 const FeatureCard = ({ icon, title, content, index }) => (
   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? 'mb-6' : 'mb-0'} feature-card`}>
@@ -27,11 +28,9 @@ const Business = () => {
   return (
     <section id='features' className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Artificial Intelligence, <br className='sm:block hidden'/>and Satellite Technology combined.</h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-          With our technology, farmers will be able to easily monitor the crop and fields to gather info about yield, hydration, disease detection and a precise runway from sowing to harvesting. ALL IN ONE.
-        </p>
-        <Button styles='mt-10'/>
+      <video controls controlsList='nofullscreen nodownload noremoteplayback noplaybackrate foobar'>
+          <source src={video} type="video/mp4" />
+        </video>
       </div>
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (
