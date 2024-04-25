@@ -1,7 +1,5 @@
 import styles from '../style'
 import { discount } from '../assets'
-import farm from '../../Needed/farm.png'
-import GetStarted from './GetStarted'
 import video from '../assets/homevideo.mp4'
 
 const Hero = () => {

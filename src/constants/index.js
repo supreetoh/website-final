@@ -2,13 +2,11 @@ import {
   facebook, 
   instagram, 
   linkedin, 
-  twitter, 
-  airbnb, 
-  binance, 
-  coinbase, 
-  dropbox, 
-  send, 
+  fied,
+  startupKarnataka,
+  iimb,
   shield, 
+  send,
   star
 } from "../assets";
 
@@ -191,19 +189,16 @@ export const socialMedia = [
 
 export const clients = [
   {
-    id: "client-1",
-    logo: airbnb,
+    id: "NSRCEL- IIM Bengaluru",
+    logo: iimb,
   },
   {
-    id: "client-2",
-    logo: binance,
+    id: "Startup Karnataka",
+    logo: startupKarnataka,
   },
   {
-    id: "client-3",
-    logo: coinbase,
+    id: "FIED- IIM KASHIPUR",
+    logo: fied,
   },
-  {
-    id: "client-4",
-    logo: dropbox,
-  },
+  
 ];

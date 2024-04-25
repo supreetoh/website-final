@@ -13,6 +13,9 @@ import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
 import twitter from "./twitter.svg";
+import iimb from "./iim-b.jpeg"
+import fied from "./fied.jpeg"
+import startupKarnataka from "./startup-karnataka.png"
 
 export {
   logo,
@@ -29,5 +32,8 @@ export {
   facebook,
   instagram,
   linkedin,
+  iimb,
+  fied,
   twitter,
+  startupKarnataka,
 };
